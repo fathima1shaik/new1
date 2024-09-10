@@ -1,0 +1,24 @@
+.bg{
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-position: fixed;
+    width: 100%;
+
+    position: relative;
+  height: 100vh; /* Set this to the height you want */
+  overflow: hidden; /* Hide content that overflows */
+}
+.para {
+    position: absolute;
+    bottom: -100%; /* Initially hide it at the bottom */
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color:brown;
+
+    transition: bottom 0.5s ease-in-out;
+  }
+  
+.para.show {
+    bottom: 0; /* Bring it up to visible area */
+  }

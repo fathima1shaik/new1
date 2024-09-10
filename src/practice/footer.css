@@ -1,0 +1,77 @@
+.Footer{
+    display:flex;
+   
+    justify-content: space-around;
+   background-color:black;
+    color:white;
+
+    
+     .div-p{
+        
+        height:40%;
+        width:50%;
+        margin:5%;
+        padding:15px;
+      
+     }
+
+     .div-icon{
+       display:flex;
+        height:30%;
+        width:20%;
+        margin:5%;
+        padding:10px;
+        gap:10%;
+        font-size:40px;
+
+        
+    }
+
+    .div-2 {
+        display:flex;
+        height:50%;
+        width:80%;
+        margin: 2%;
+        gap:30px;
+        padding:2%;
+       
+
+          .h3-A{
+            padding-left:2%;
+            text-transform:uppercase;
+            color:white;
+          }
+          .h3-C{
+            padding-left:8%;
+          }
+       
+       
+    ul1 {
+
+        margin-top:10%;
+        list-style-type: none;
+        margin-left: -15%;
+        color:white;
+      
+      }
+      
+      li {
+        
+       margin-left:-38px;
+        color:white;
+      }
+    }
+    .hr{
+      width:80%;
+      color:white;
+    }
+      
+}
+     
+    
+ 
+
+
+
+
+

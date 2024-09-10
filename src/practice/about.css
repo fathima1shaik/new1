@@ -1,0 +1,161 @@
+.main{
+    width:100%;
+    height:auto;
+    
+     .div-1{
+        background-color: #4a5278;
+        height:170px;
+        width:100%;
+        padding:15px;
+        color:white;
+        
+
+        .h1-At{
+            font-size: 48px;
+        }
+        
+       
+       
+    }
+    .video{
+        margin-top:10%;
+        background-color:whitesmoke;
+
+
+    }
+
+    .section-3{
+        display:flex;
+        width:100%;
+        margin-top: 5%;
+       
+       
+
+
+        .div-A{
+            height:50%;
+            width:40%;
+            margin:1%;
+            padding:1%;
+            line-height:30px;
+            font-size: 20px;
+            
+
+            .p-E{
+                color:grey;
+            }
+
+                .p-S{
+                    color:grey;
+                    font-size: 19px;
+                }
+        }
+
+        
+        .div-C, .div-B{
+            width:25%;
+            height:35%;
+            margin-top: 7%;
+            font-size:15px;
+            padding:1%;
+           
+
+                .Lab{
+                    font-size: 40px;
+                    color: rgb(51, 50, 50);
+                    font-weight: 500;
+                }
+                .Cli{
+                    font-size: 20px;
+                    color:grey;
+                }
+                .Fa{
+                    font-size: 35px;
+                    color:#ed7268;
+                   
+                }
+                .Exc{
+                    font-size: 18px;
+                    line-height: 30px;
+                    color:grey;
+                }
+            
+               
+         }
+     }
+
+     .section-4{
+         height:80%;
+         width:100%;
+        
+        
+                .h1-T{
+                    text-align: center;
+                }
+
+                .section-411{
+                   
+                    display: flex;
+                    width:100%;
+                    justify-content: space-around;
+                  
+
+                    .div-41, .div-42 ,.div-43{
+                        height:35%;
+                        width:30%;
+                        margin:1%;
+                        
+                        
+                        .img-sky{
+                            height: 250px;
+                            width:400px;
+                            border-radius:7px;
+                        }
+                        .btn-CTA{
+                            height:40px;
+                            width:100px;
+                            background-color: #ed7268;
+                            border:none;
+                            border-radius: 5px;
+                            color:white;
+                            font-size: 15px;
+                            font-family:'Roboto' ;
+                            font-weight: bold;
+                        }
+                    }
+
+                 }
+             }
+
+             .div-dir{
+                margin: 7% 0 10% 0;
+              
+                .div-O{
+                    text-align: center;
+                }
+               
+                .div-img1{
+                    display:flex;
+                    justify-content: space-around;
+                    width:100%;
+                   
+                 .div-img{
+                     display: flex;
+                     flex-direction: column;
+                     height:50%;
+                     width:27%;
+                     align-items: center;
+                     margin: 2%;
+                     text-align: center;
+                      
+                .imgg{
+                    height:150px;
+                    width:150px;
+                    border-radius: 100px;
+                    align-self: center;
+                }
+            }
+          }
+        }
+
+}

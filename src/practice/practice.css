@@ -1,0 +1,237 @@
+.Main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('sky.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 710px; 
+     
+       
+        .section-1{
+                margin:10%;
+                
+                   .h1-A{
+                        text-align: center;
+                    }
+
+                    .p1{
+                        width:100%;
+                        font-size: 20px;
+                        line-height: 30px;
+                        text-align: center;
+                        
+                    }
+
+            .bt-cal{
+                height:50px;
+                margin:  5% 42% ;
+                width:18%;
+                cursor: pointer;
+                font-size: 17px;
+                background-color: #ed7268;
+                color:white;
+                border:none;
+                border-radius: 5px;
+                font-weight: bold;
+                
+            }
+
+        }
+
+        
+        .section-2{
+            display: flex;
+            width:100%;
+            background-color: #33475b;
+            justify-content: space-around;
+           
+
+                .glance{
+                    color:white;
+                    padding:10px;
+                }
+           
+             .client{
+                    display: flex;
+                    color:white;
+                    padding:10px;
+
+                    .Active{
+                        display: flex;
+                        flex-direction: row;
+                       
+
+                        .num{
+                            font-size:29px;
+                    } 
+                    .Aw{
+                        padding:15px;
+                    }
+                }   
+            }
+        }
+
+
+        .section-3A{
+           margin:3%;
+
+            .h1-3A{
+                text-align: center;
+            }
+          
+           
+            .h1-A{
+
+                display: flex;
+                text-align: center;
+                
+                .section-31{
+                        display: flex;
+                        gap:4%;
+                    }
+
+                .p-1{
+                    
+                    width:35%;
+                    padding: 25px ;
+                    border-radius: 20px;
+                    background-color: whitesmoke;
+                    height:75%;
+                    border: 4px solid orange;
+                    border-width: 4px 0 0 4px;
+                    border-radius: 20px;
+                    box-shadow: 10px 10px rgb(93, 93, 192);
+                   
+                }
+            }
+        }
+
+        .section-3B{
+           
+            display: flex;
+            margin:3%;
+            
+          
+             .section-31{
+                display: flex;
+                gap:4%;
+              
+             }
+                
+             .p-1{
+                text-align: center;
+                width:35%;
+                height:75%;
+                padding: 27px ;
+                border-radius: 20px;
+                background-color: whitesmoke;
+                box-shadow: 10px 10px rgb(93, 93, 192);
+                border: 4px solid orange;
+                border-width: 4px 0 0 4px;
+             
+                
+            }
+        }
+
+        .section-4A{
+            
+            display: flex;
+            margin:2%;
+            
+
+                .section-41{
+                    height:70%;
+                    width:40%;
+                    margin:2%;
+                    padding:2%;
+                    line-height: 30px;
+                    font-size: 20px;
+                    
+               }
+                
+
+                .section-42{
+
+                    height:70%;
+                    width:50%;
+                    margin:2%;
+
+
+                    .sky1{
+                        height:100%;
+                        width:88%;
+                        margin:7% 0 0 4%;
+                    }
+                }
+
+
+        }
+
+            .section-4B{
+                 display: flex;
+                 margin-top:-8%;
+               
+                .section-41B{
+                        height:70%;
+                        width:50%;
+                        margin:2% 0 0 2%;
+                       
+
+                        .sky1{
+                            height:100%;
+                            width:86%;
+                            margin:10% 0 0 4%;
+                        }
+
+                    }
+
+                    .section-42B{
+                        height:70%;
+                        width:40%;
+                        margin:3%;
+                        padding:2%;
+                        line-height: 30px;
+                        font-size: 20px;
+
+                    }
+            }
+
+            .section-5{
+                
+                height:100%;
+                width:100%;
+                color:white;
+                text-align: center;
+                background-color: #ed7268;
+                
+
+                    .btn-div{
+                        height:30%;
+                        width:20%;
+                        margin:2% 0 2% 37%;
+                       
+                        
+                            .btn-cal {
+
+                                height:70%;
+                                width:50%;
+                                color:white;
+                                border-radius: 5px;
+                                margin:2% 0 2% 30%;
+                                border:2px solid white;
+                                background-color: transparent;
+                                font-weight: bold;
+                                cursor: pointer;
+                                
+                            }
+                            .btn-cal:hover{
+                                background-color: white;
+                                color: #33475b;
+                            }
+                     }
+             } 
+    }
+
+   

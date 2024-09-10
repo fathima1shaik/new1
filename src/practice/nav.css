@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+    width: 100%;
+    gap:5%;
+    margin-top: -10px;
+    height:30px;
+   
+
+
+}
+
+li{
+   
+    padding-top:10px;
+}
+
+.Home {
+    background-color: initial; /* Default background color */
+}
+
+
+
+.Home.active {
+   
+    text-decoration: underline; /* Background color when active */
+}
