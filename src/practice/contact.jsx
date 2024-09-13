@@ -48,6 +48,12 @@ function contact() {
       <br></br>
       <input type='radio'  name='name' /><span>option 02</span> 
     </div>
+
+   
+  </div>
+  <br></br>
+  <div>
+    <iframe title='nsnsnh' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.33557895623596!2d80.44363516165046!3d16.304065876538996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75eb4beae4c5%3A0xcfa5187ae8404624!2sSM%20ENTERPRISES%20KITCHEN%20GALLERY%20ELICA%20FABER%20HAFELE%20GLEN%20CROMPTON%20KAFF%20HINDWARE%20Chimney%20near%20me%20GUNTUR%20hob%20cooktop%20oven!5e0!3m2!1sen!2sin!4v1726224575922!5m2!1sen!2sin" width="100%" height="650"  allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
   )
