@@ -6,7 +6,7 @@ const about = () => {
   return (
     <div className='bgp'>
       <h1 className='Ab'>
-        ABOUT<br/>
+        ABOUT
         ALAN PARKS
       </h1>
 

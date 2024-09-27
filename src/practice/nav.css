@@ -1,14 +1,18 @@
-ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 20px;
-    width: 100%;
-    gap:5%;
-    margin-top: -10px;
-    height:30px;
+.header{
    
-
+    .ham{
+    
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: 20px;
+        width: 100%;
+        gap:5%;
+        margin-top: -10px;
+        height:30px;
+       
+    
+    
 
 }
 
@@ -26,4 +30,6 @@ li{
 .Home.active {
    
     text-decoration: underline; /* Background color when active */
+}
+
 }

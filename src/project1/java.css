@@ -1,0 +1,452 @@
+@media(min-width:350px) and (max-width: 576px) {
+.main{
+    .h1-j{
+        text-align: center;
+        padding-top: 4%;
+        background-color:#004e7c;
+        height:70px;
+        width:100%;
+        color:white;
+        font-size:25px;
+    }
+
+    .java1{
+        width:100%;
+    }
+
+    .p-img{
+       
+        width:100%;
+       
+
+        .div-p{
+            width:100%;
+            text-align: center;
+            font-size: 15px;
+            
+            margin-top:3%;
+           
+        }
+      
+        .cjava{
+            
+            width:100%;
+            border-radius: 20px;
+        }
+       
+    }
+
+    .div-p1{
+        width:100%;
+        font-size: 20px;
+        line-height:30px;
+      
+        margin-top:5%;
+        
+        .h2-h{
+           
+            font-size:20px;
+         }
+    }
+    .h2-h{
+       
+        font-size:35px;
+        
+     }
+
+   .div-c{
+        
+
+        .ul1{
+            
+            width:100%;
+        }
+
+        .h4-j{
+            font-size:25px;
+            font-weight:500;
+        }
+        .li{
+            font-size:20px;
+        }
+   }
+ }
+}
+
+@media(min-width:577px) and (max-width:767px){
+    .main{
+        .h1-j{
+            text-align: center;
+            padding-top: 2%;
+            background-color:#004e7c;
+            height:70px;
+            color:white;
+        }
+    
+        .java1{
+            width:100%;
+        }
+    
+        .p-img{
+            display:flex;
+            margin-top:5%;
+            gap:2%;
+    
+            .div-p{
+                width:40%;
+                height:50%;
+                font-size: 20px;
+                text-align: center;
+                margin-left:2%;
+                margin-top:3%;
+                line-height: 30px;
+            }
+          
+            .cjava{
+                height:350px;
+                width:650px;
+                border-radius: 20px;
+            }
+           
+        }
+    
+        .div-p1{
+            width:85%;
+            font-size: 20px;
+            line-height:30px;
+            margin-left:6%;
+            margin-top:5%;
+            
+            .h2-h{
+                text-align: center;
+                font-size:35px;
+             }
+        }
+        .h2-h{
+            text-align: center;
+            font-size:35px;
+            
+         }
+    
+       .div-c{
+            display: flex;
+            gap:7%;
+    
+            .ul1{
+                
+                width:33%;
+            }
+    
+            .h4-j{
+                font-size:25px;
+                font-weight:500;
+            }
+            .li{
+                font-size:20px;
+            }
+       }
+     }
+
+}
+
+@media(min-width: 768px) and (max-width:991.98px) {
+    .main{
+        .h1-j{
+            text-align: center;
+            padding-top: 2%;
+            background-color:#004e7c;
+            height:70px;
+            color:white;
+            width:100%;
+        }
+    
+        .java1{
+            width:100%;
+        }
+    
+        .p-img{
+          
+    
+            .div-p{
+                width:90%;
+                height:50%;
+                font-size: 20px;
+                text-align: center;
+                margin-left:2%;
+                margin-top:3%;
+                line-height: 30px;
+            }
+          
+            .cjava{
+                height:350px;
+                width:80%;
+                border-radius: 20px;
+                margin-left:10%;
+            }
+           
+        }
+    
+        .div-p1{
+            width:85%;
+            font-size: 20px;
+            line-height:30px;
+            margin-left:6%;
+            margin-top:5%;
+            
+            .h2-h{
+                text-align: center;
+                font-size:35px;
+             }
+        }
+        .h2-h{
+            text-align: center;
+            font-size:35px;
+            
+         }
+    
+       .div-c{
+            display: flex;
+            gap:7%;
+    
+            .ul1{
+                
+                width:33%;
+            }
+    
+            .h4-j{
+                font-size:25px;
+                font-weight:500;
+            }
+            .li{
+                font-size:20px;
+            }
+       }
+     }
+}
+
+@media(min-width:992px) and (max-width: 1199.98px) {
+    .main{
+        .h1-j{
+            text-align: center;
+            padding-top: 2%;
+            background-color:#004e7c;
+            height:70px;
+            color:white;
+        }
+    
+        .java1{
+            width:100%;
+        }
+    
+        .p-img{
+            display:flex;
+            margin-top:5%;
+            gap:2%;
+    
+            .div-p{
+                width:40%;
+                height:50%;
+                font-size: 20px;
+                text-align: center;
+                margin-left:2%;
+              
+               
+            }
+          
+            .cjava{
+                height:350px;
+                width:90%;
+                border-radius: 20px;
+            }
+           
+        }
+    
+        .div-p1{
+            width:85%;
+            font-size: 20px;
+            line-height:30px;
+            margin-left:6%;
+            margin-top:5%;
+            
+            .h2-h{
+                text-align: center;
+                font-size:35px;
+             }
+        }
+        .h2-h{
+            text-align: center;
+            font-size:35px;
+            
+         }
+    
+       .div-c{
+            display: flex;
+            gap:7%;
+    
+            .ul1{
+                
+                width:33%;
+            }
+    
+            .h4-j{
+                font-size:25px;
+                font-weight:500;
+            }
+            .li{
+                font-size:20px;
+            }
+       }
+     }
+}
+
+@media(min-width:1200px){
+    .main{
+        .h1-j{
+            text-align: center;
+            padding-top: 2%;
+            background-color:#004e7c;
+            height:70px;
+            color:white;
+        }
+    
+        .java1{
+            width:100%;
+        }
+    
+        .p-img{
+            display:flex;
+            margin-top:5%;
+            gap:2%;
+    
+            .div-p{
+                width:40%;
+                height:50%;
+                font-size: 20px;
+                text-align: center;
+                margin-left:2%;
+                margin-top:3%;
+                line-height: 30px;
+            }
+          
+            .cjava{
+                height:350px;
+                width:650px;
+                border-radius: 20px;
+            }
+           
+        }
+    
+        .div-p1{
+            width:85%;
+            font-size: 20px;
+            line-height:30px;
+            margin-left:6%;
+            margin-top:5%;
+            
+            .h2-h{
+                text-align: center;
+                font-size:35px;
+             }
+        }
+        .h2-h{
+            text-align: center;
+            font-size:35px;
+            
+         }
+    
+       .div-c{
+            display: flex;
+            gap:7%;
+    
+            .ul1{
+                
+                width:33%;
+            }
+    
+            .h4-j{
+                font-size:25px;
+                font-weight:500;
+                margin-left:-25px;
+                
+            }
+            .li{
+                font-size:20px;
+            }
+       }
+     }
+}
+
+@media(min-width:1400px){
+    .main{
+        .h1-j{
+            text-align: center;
+            padding-top: 2%;
+            background-color:#004e7c;
+            height:70px;
+            color:white;
+        }
+    
+        .java1{
+            width:100%;
+        }
+    
+        .p-img{
+            display:flex;
+            margin-top:5%;
+           
+    
+            .div-p{
+                width:40%;
+              
+                font-size: 25px;
+                text-align: center;
+                
+                
+                line-height: 35px;
+            }
+          
+            .cjava{
+                height:350px;
+                width:100%;
+                border-radius: 20px;
+            }
+           
+        }
+    
+        .div-p1{
+            width:85%;
+            font-size: 25px;
+            line-height:30px;
+            margin-left:6%;
+            margin-top:5%;
+            
+            .h2-h{
+                text-align: center;
+                font-size:35px;
+             }
+        }
+        .h2-h{
+            text-align: center;
+            font-size:35px;
+            
+         }
+    
+       .div-c{
+            display: flex;
+            gap:7%;
+    
+            .ul1{
+                
+                width:33%;
+            }
+    
+            .h4-j{
+                font-size:25px;
+                font-weight:500;
+            }
+            .li{
+                font-size:20px;
+            }
+       }
+     }
+ }

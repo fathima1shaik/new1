@@ -14,7 +14,7 @@ function Nav() {
   return (
     <div>
       <div className="header">
-        <ul>
+        <ul className='ham'>
           <Link
             to="/"
             className={`Ho${activeLink === '/' ? 'active' : ''}`}

@@ -1,7 +1,8 @@
 import React from 'react'
 import './about.css'
-import Video from '../practice/video.mp4';
 import Footer from '../practice/footer.jsx';
+import Video from '../practice/video.mp4';
+
 import { FaTrophy } from "react-icons/fa6";
 
 function about() {
@@ -52,13 +53,16 @@ function about() {
           <p>Facer paulo nostrud mea ut, vis eu graece fastidii scripserit. Veniam voluptaria vix at, ut nonumy ornatus dolorem pro, sea ei nominavi forensibus omittantur.</p>
           <button className='btn-CTA'>CTA Text</button>
         </div>
-        <div className='div-42'>
+
+        <div className='div-41'>
           <img className='img-sky' src='sky1.jpg' alt='' />
           <h2>Gallery Title</h2>
           <p>Facer paulo nostrud mea ut, vis eu graece fastidii scripserit. Veniam voluptaria vix at, ut nonumy ornatus dolorem pro, sea ei nominavi forensibus omittantur.</p>
           <button className='btn-CTA'>CTA Text</button>
         </div>
-        <div className='div-43'>
+
+
+        <div className='div-41'>
           <img className='img-sky' src='sky1.jpg' alt='' />
           <h2>Gallery Title</h2>
           <p>Facer paulo nostrud mea ut, vis eu graece fastidii scripserit. Veniam voluptaria vix at, ut nonumy ornatus dolorem pro, sea ei nominavi forensibus omittantur.</p>
@@ -77,13 +81,15 @@ function about() {
           <p>Facer paulo nostrud mea ut, vis eu graece fastidii scripserit. Veniam voluptaria vix at, ut nonumy ornatus dolorem pro, sea ei nominavi forensibus omittantur.</p>
           <button className='btn-CTA'>CTA Text</button>
         </div>
-        <div className='div-42'>
+        
+        <div className='div-41'>
           <img className='img-sky' src='sky1.jpg' alt='' />
           <h2>Gallery Title</h2>
           <p>Facer paulo nostrud mea ut, vis eu graece fastidii scripserit. Veniam voluptaria vix at, ut nonumy ornatus dolorem pro, sea ei nominavi forensibus omittantur.</p>
           <button className='btn-CTA'>CTA Text</button>
         </div>
-        <div className='div-43'>
+
+        <div className='div-41'>
           <img className='img-sky' src='sky1.jpg' alt='' />
           <h2>Gallery Title</h2>
           <p>Facer paulo nostrud mea ut, vis eu graece fastidii scripserit. Veniam voluptaria vix at, ut nonumy ornatus dolorem pro, sea ei nominavi forensibus omittantur.</p>
@@ -116,14 +122,11 @@ function about() {
     </div>
  </div>
   </div>
-
-
-
-
-
-    <div>
+  <div>
       <Footer  />
     </div>
+       
+    
   </div>
 
   )

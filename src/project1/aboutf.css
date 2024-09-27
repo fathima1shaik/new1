@@ -1,0 +1,399 @@
+@media (max-width: 576px) {
+.main{
+    background-color: antiquewhite;
+    .h1{
+        text-align: center;
+    }
+    .div-1{
+        display: flex;
+        flex-direction: column;
+        margin:5%;
+        
+
+        .div-p{
+            font-size: 18px;
+         
+           
+        }
+        .img1{
+            border-radius: 25px;
+            height:100%;
+            width:100%;
+        }
+    }
+    .div-2{
+       margin-top:5% ;
+    
+        .h1-D{
+            text-align: center;
+            font-size: 20px;
+        }
+        .div-21{
+            display: flex;
+            flex-direction: column;
+           
+            
+           
+          .div-2A{
+            width:100%;
+           
+           
+        
+        .h3-P{
+           text-align: center;
+           font-size:18px;
+        }
+        .li-P{
+            font-size: 18px;
+            padding:10px;
+        }
+     }
+
+   }
+ }
+
+ .div-3{
+   margin:7%;
+    .h2-A{
+        text-align: center;
+        font-size:20px;
+    }
+    .span-S{
+        font-size: 18px;
+        
+     
+    }
+ }
+}
+}
+
+@media(min-width:577px) and (max-width: 767px) {
+    .main{
+        background-color: antiquewhite;
+        .h1{
+            text-align: center;
+        }
+        .div-1{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+    
+            .div-p{
+                font-size: 20px;
+                padding-top: 20px;
+                width:50%;
+            }
+            .img1{
+                border-radius: 25px;
+                height:50%;
+                width:100%;
+            }
+        }
+        .div-2{
+           margin-top:5% ;
+        
+            .h1-D{
+                text-align: center;
+            }
+            .div-21{
+                display: flex;
+               
+                
+               
+              .div-2A{
+                width:50%;
+                border-radius: 10px;
+                box-shadow: 10px 10px 2px 2px grey;
+                margin: 3%;
+            
+            .h3-P{
+               text-align: center;
+               font-size:25px;
+            }
+            .li-P{
+                font-size: 20px;
+            }
+         }
+    
+       }
+     }
+    
+     .div-3{
+        .h2-A{
+            text-align: center;
+        }
+        .span-S{
+            font-size: 18px;
+            
+         
+        }
+     }
+    }
+    }
+
+    @media(min-width:768px) and (max-width: 991.98px) {
+        .main{
+            background-color: antiquewhite;
+            .h1{
+                text-align: center;
+            }
+            .div-1{
+                margin-left: 5%;
+                width: 90%;
+                gap:20px;
+        
+                .div-p{
+                   
+                    font-size: 20px;
+                    padding-top: 20px;
+                   
+                   
+             
+                }
+                .img1{
+                    border-radius: 25px;
+                    height:50%;
+                    width:100%;
+              
+                }
+            }
+            .div-2{
+               margin-top:5% ;
+               margin-left: 5%;
+               width: 90%;
+                .h1-D{
+                    text-align: center;
+                }
+                .div-21{
+                    display: flex;
+                   
+                    
+                   
+                  .div-2A{
+                    width:50%;
+                    border-radius: 10px;
+                    box-shadow: 10px 10px 2px 2px grey;
+                    margin: 3%;
+                
+                .h3-P{
+                   text-align: center;
+                   font-size:25px;
+                }
+                .li-P{
+                    font-size: 20px;
+                }
+             }
+        
+           }
+         }
+        
+         .div-3{
+            .h2-A{
+                text-align: center;
+            }
+            .span-S{
+                font-size: 18px;
+                
+             
+            }
+         }
+      }
+    }
+
+    @media(min-width:992px) and (max-width: 1199.98px) {
+        .main{
+            background-color: antiquewhite;
+            .h1{
+                text-align: center;
+            }
+            .div-1{
+                display: flex;
+                gap:20px;
+        
+                .div-p{
+                    font-size: 20px;
+                    padding-top: 20px;
+                    width:50%;
+                }
+                .img1{
+                    border-radius: 25px;
+                    height:50%;
+                    width:50%;
+                }
+            }
+            .div-2{
+               margin-top:5% ;
+            
+                .h1-D{
+                    text-align: center;
+                }
+                .div-21{
+                    display: flex;
+                   
+                    
+                   
+                  .div-2A{
+                    width:50%;
+                    border-radius: 10px;
+                    box-shadow: 10px 10px 2px 2px grey;
+                    margin: 3%;
+                
+                .h3-P{
+                   text-align: center;
+                   font-size:25px;
+                }
+                .li-P{
+                    font-size: 20px;
+                }
+             }
+        
+           }
+         }
+        
+         .div-3{
+            .h2-A{
+                text-align: center;
+            }
+            .span-S{
+                font-size: 18px;
+                
+             
+            }
+         }
+        }
+     }
+
+     @media(min-width: 1200px) {
+        .main{
+            background-color: antiquewhite;
+            .h1{
+                text-align: center;
+            }
+            .div-1{
+                display: flex;
+                gap:5%;
+                margin:5%;
+        
+                .div-p{
+                    font-size: 18px;
+                    line-height:25px;
+                    width:45%;
+                }
+                .img1{
+                    border-radius: 25px;
+                    height:50%;
+                    width:50%;
+                }
+            }
+            .div-2{
+               margin-top:5% ;
+            
+                .h1-D{
+                    text-align: center;
+                }
+                .div-21{
+                    display: flex;
+                   
+                    
+                   
+                  .div-2A{
+                    width:50%;
+                    border-radius: 10px;
+                    box-shadow: 10px 10px 2px 2px grey;
+                    margin: 3%;
+                
+                .h3-P{
+                   text-align: center;
+                   font-size:25px;
+                }
+                .li-P{
+                    font-size: 20px;
+                }
+             }
+        
+           }
+         }
+        
+         .div-3{
+          width:90%;
+          margin:5%;
+
+
+            .h2-A{
+                text-align: center;
+            }
+            .span-S{
+                font-size: 18px;
+               
+            }
+         }
+        }
+    }
+
+    @media(min-width:1400px)  {
+        .main{
+            background-color: antiquewhite;
+            .h1{
+                text-align: center;
+            }
+            .div-1{
+                display: flex;
+                gap:20px;
+        
+                .div-p{
+                    font-size: 20px;
+                    padding-top: 20px;
+                    width:50%;
+                }
+                .img1{
+                    border-radius: 25px;
+                    height:50%;
+                    width:50%;
+                }
+            }
+            .div-2{
+               margin-top:5% ;
+            
+                .h1-D{
+                    text-align: center;
+                }
+                .div-21{
+                    display: flex;
+                   
+                    
+                   
+                  .div-2A{
+                    width:50%;
+                    border-radius: 10px;
+                    box-shadow: 10px 10px 2px 2px grey;
+                    margin: 3%;
+                
+                .h3-P{
+                   text-align: center;
+                   font-size:25px;
+                }
+                .li-P{
+                    font-size: 20px;
+                }
+             }
+        
+           }
+         }
+        
+         .div-3{
+            .h2-A{
+                text-align: center;
+            }
+            .span-S{
+                font-size: 18px;
+                
+             
+            }
+         }
+        }
+        }
+        
+        
+        
+        
+    

@@ -1,77 +1,205 @@
-.Footer{
-    display:flex;
-   
-    justify-content: space-around;
-   background-color:black;
-    color:white;
-
-    
-     .div-p{
-        
-        height:40%;
-        width:50%;
-        margin:5%;
-        padding:15px;
-      
-     }
-
-     .div-icon{
-       display:flex;
-        height:30%;
-        width:20%;
-        margin:5%;
-        padding:10px;
-        gap:10%;
-        font-size:40px;
-
-        
-    }
-
-    .div-2 {
-        display:flex;
-        height:50%;
-        width:80%;
-        margin: 2%;
-        gap:30px;
-        padding:2%;
-       
-
-          .h3-A{
-            padding-left:2%;
-            text-transform:uppercase;
-            color:white;
-          }
-          .h3-C{
-            padding-left:8%;
-          }
-       
-       
-    ul1 {
-
-        margin-top:10%;
-        list-style-type: none;
-        margin-left: -15%;
-        color:white;
-      
-      }
-      
-      li {
-        
-       margin-left:-38px;
-        color:white;
-      }
-    }
-    .hr{
-      width:80%;
-      color:white;
-    }
-      
-}
-     
-    
+@media (max-width: 576px) {
+.footer{
+  background-color: black;
+  width:100%;
+  color:white;
  
 
+  .footerleft{
+    width:80%;
+
+    p{
+      width:100%;
+      padding:7%;
+      line-height: 25px;
+      font-size:18px;
+      text-align: center;
+      justify-content: center;
+      
+    }
+
+  }
+  .footerright{
+    .heading{
+      h2{
+        padding-left: 10px;
+        
+      }
+      p{
+        font-weight: 300;
+      }
+    }
+  }
+}
+}
+
+@media (min-width: 577px) and (max-width:767px){
+  .footer{
+    background-color: black;
+    width:100%;
+    color:white;
+    display:flex;
+  
+    .footerleft{
+      width:60%;
+  
+      p{
+        width:50%;
+        padding-left: 10%;
+        line-height: 30px;
+        font-size:18px;
+        
+      }
+  
+    }
+    .footerright{
+      .heading{
+        h2{
+          padding-left: 20px;
+          
+        }
+        p{
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  }
+
+  @media(min-width:768px) and (max-width: 991.98px) {
+    .footer{
+      background-color: black;
+      width:100%;
+      color:white;
+      
+    
+      .footerleft{
+       
+    
+        p{
+          width:80%;
+          padding-left: 10%;
+          line-height: 30px;
+          font-size:18px;
+          padding-top:5%;
+          text-align: center;
+        }
+    
+      }
+      .footerright{
+       padding-left:25%;
+        .heading{
+          h2{
+            padding-left: 20px;
+            
+          }
+          p{
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  @media(min-width:992px) and (max-width: 1199.98px) {
+    .footer{
+      background-color: black;
+      width:100%;
+      color:white;
+      display:flex;
+    
+      .footerleft{
+        width:60%;
+    
+        p{
+          width:50%;
+          padding-left: 10%;
+          line-height: 30px;
+          font-size:18px;
+          
+        }
+    
+      }
+      .footerright{
+        .heading{
+          h2{
+            padding-left: 20px;
+            
+          }
+          p{
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    }
 
 
 
 
+    @media(min-width:1200px)  {
+      .footer{
+        background-color: black;
+        width:100%;
+        color:white;
+        display:flex;
+      
+        .footerleft{
+          width:60%;
+      
+          p{
+            width:50%;
+            padding-left: 10%;
+            line-height: 30px;
+            font-size:18px;
+            
+          }
+      
+        }
+        .footerright{
+          .heading{
+            h2{
+              padding-left: 20px;
+              
+            }
+            p{
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+
+    
+    @media(min-width:1400px)  {
+      .footer{
+        background-color: black;
+        width:100%;
+        color:white;
+        display:flex;
+      
+        .footerleft{
+          width:60%;
+      
+          p{
+            width:50%;
+            padding-left: 10%;
+            line-height: 30px;
+            font-size:18px;
+            
+          }
+      
+        }
+        .footerright{
+          .heading{
+            h2{
+              padding-left: 20px;
+              
+            }
+            p{
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }

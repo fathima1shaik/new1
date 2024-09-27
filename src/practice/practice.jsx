@@ -2,6 +2,7 @@ import React from 'react'
 import './practice.css'
 import { IoDiamondOutline } from "react-icons/io5";
 import Footer from '../practice/footer.jsx';
+import {Link} from 'react-router-dom'
 
 
 
@@ -19,7 +20,7 @@ const practice = () => {
                     <div className='p1'>
                       <p className='p1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>Natus repellat illum veniam, maiores odio amet reiciendis ad. <br/>Libero rem, ullam quae officiis, doloribus incidunt nesciunt dicta deleniti dolorum, totam deserunt.</p>
                     </div>                
-                <button className='bt-cal'> Call To Action</button> 
+                <button className='bt-cal' > <Link style={{textDecoration:'none',color:'white'}} to='/Team'>Call To Action </Link></button> 
             </div>
 
 
@@ -100,7 +101,7 @@ const practice = () => {
 
       <div className='section-4A'>
         <div className='section-41'>
-          <h1>Atomic Content</h1>
+          <h1 className='h1-A'>Atomic Content</h1>
           <p>Essent accumsan invidunt in pri. Pri enim tincidunt no, ubique doming expetenda te mei. Forensibus voluptaria efficiantur sed ut, mei unum volumus ad.</p>
           <p>Sint oratio at per, diam saepe dicam ei sea. At civibus appetere cum, quem habeo in. Eam modo apeirian te, ut altera iisque evertitur sit. Cu saperet inermis aliquando nam, per impetus qualisque interesset ex, vix at omittantur instructior disputationi.</p>
         </div>
@@ -116,7 +117,7 @@ const practice = () => {
           <img className='sky1' src='./sky1.jpg' alt='' />
         </div>
           <div className='section-42B'>
-            <h1>Atomic Content</h1>
+            <h1 className='h1-A'>Atomic Content</h1>
             <p>Essent accumsan invidunt in pri. Pri enim tincidunt no, ubique doming expetenda te mei. Forensibus voluptaria efficiantur sed ut, mei unum volumus ad.</p>
             <p>Sint oratio at per, diam saepe dicam ei sea. At civibus appetere cum, quem habeo in. Eam modo apeirian te, ut altera iisque evertitur sit. Cu saperet inermis aliquando nam, per impetus qualisque interesset ex, vix at omittantur instructior disputationi.</p>
           </div>

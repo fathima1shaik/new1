@@ -1,56 +1,46 @@
 import React from 'react'
-import { FaFacebookMessenger } from "react-icons/fa6";
-import { SiLinkedin } from "react-icons/si";
-import { FaInstagramSquare } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
-import '../practice/footer.css'
-
-function footer() {
+import './footer.css'
+export default function footer() {
   return (
-    <div>
-        <div className='Footer'>
-          <div className='div1'>
-            <div className='div-p'>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, corporis! Exercitationem asperiores non neque odio illo ad, animi similique, repudiandae soluta ex odit laborum. Quas ex culpa rerum inventore ut.</p>
-            </div>
-              <div className='div-icon'>
-                <SiLinkedin />
-                <FaInstagramSquare />
-                <FaFacebookMessenger />
-                <IoLogoWhatsapp />
-              </div>
-          </div>
+    <div className='footer'>
+      {/*footer  left side*/}
+      <div className='footerleft'>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quibusdam eius incidunt, accusamus fugit esse temporibus animi at est ullam inventore maxime labore cupiditate et ex voluptatem ipsa nulla accusantium!</p>
+        
+      </div>
+      {/*footer right*/}
+      <div className='footerright'>
+        <table>
+          <tr className='heading'>
+            <th><h2>About us</h2></th>
+            <th><h2>Resources</h2></th>
+            <th><h2>Contact</h2></th>
+          </tr>
 
-            <div className='div-2'>
-                
-                <h3 className='h3-A'>About Us</h3>
-                  <ul1>
-                    <li>Our Vision & Mission</li>
-                    <li>Our Team</li>
-                    <li>Services</li>
-                    <li>Products</li>
-                  </ul1>
-                <h3 className='h3-R'>Resources</h3>
-                  <ul1>
-                    <li>Blog</li>
-                    <li>News</li>
-                    <li>Ebooks</li>
-                    <li>Videos</li>
-                  </ul1>
-                <h3 className='h3-C'>Contact Us</h3>
-                  <ul1>
-                    <li>Subscribe</li>
-                    <li>Get a Quote</li>
-                  </ul1>
-                  
-            </div>
+          <tr className='heading'>
+            <th><p>Our vision & Mission</p></th>
+            <th><p>Blog</p></th>
+            <th><p>Subscribe</p></th>
+           
+          </tr>
+          <tr className='heading'>
+            <th><p>Our Team</p></th>
+            <th><p>News</p></th>
+            <th><p>Get a quote</p></th>
+          </tr>
+          <tr className='heading'>
+            <th><p>Services</p></th>
+            <th><p>Ebooks</p></th>
+            
+          </tr>
+          <tr className='heading'>
+            <th><p>Products</p></th>
+            <th><p>Videos</p></th>
+            
+          </tr>
           
-          
-       </div>
-       <hr className='hr' />
-
+        </table>
+      </div>
     </div>
   )
 }
-
-export default footer
