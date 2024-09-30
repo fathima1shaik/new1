@@ -7,14 +7,14 @@
         align-items: center;
         background-image: url('sky.jpg');
         background-attachment: fixed;
-        background-size: 100% 80%;
+        background-size: 100% 65%;
         background-repeat:no-repeat;
         width: 100%;
       
      
        
         .section-1{
-                margin:10%;
+                margin:3%;
                 
                    .h1-A{
                         text-align: center;
@@ -30,8 +30,8 @@
 
             .bt-cal{
                 height:50px;
-                margin-left:20%;
-                width:50%;
+                margin-left:25%;
+                width:45%;
                 cursor: pointer;
                 font-size: 17px;
                 background-color: #ed7268;
